@@ -4,9 +4,9 @@ repository: sproogen/resume-theme
 
 # Personal info
 name: Julia Lanier
-title: Graduate Research Assistant at the University of Michigan
+title: Graduate Research Assistant at University of Michigan
 email: jlanier@umich.edu
-website: www.github.com/sproogen/resume-theme
+# website: www.github.com/sproogen/resume-theme
 
 # Social links
 # twitter_username: facespics
@@ -24,6 +24,8 @@ linkedin_username: julialanier
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  
+  
   I am a computer science and engineering graduate student at the University of Michigan. I am working with Dr. Kevin Fu and my research is in security.
   
 
