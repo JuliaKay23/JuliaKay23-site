@@ -1,4 +1,4 @@
-- layout: top-middle
+- layout: left
   name: Remote Sensing Center Undergraduate Research
   # link: github.com/sproogen
   # github: sproogen/resume-theme
@@ -6,7 +6,7 @@
   description: | # this will include new lines to allow paragraphs
     Designed a direct digital synthesizer module for radar applications.
 
-- layout: top-middle
+- layout: left
   name: Autonomous Kayak Undergraduate Research
   # link: github.com/sproogen
   # github: sproogen/resume-theme
