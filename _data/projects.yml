@@ -6,10 +6,10 @@
   description: | # this will include new lines to allow paragraphs
     <img style="float: left;" src="/images/rcs_logo.jpg" width="200"> Designed a direct digital synthesizer module for radar applications.
 
-- layout: left
+- layout: top
   name: Autonomous Kayak Undergraduate Research 
   # link: github.com/sproogen
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    ![The autonomous kayak](/images/auto_kayak.jpg){:height="25%" width="25%"} Worked on a team developing software to create an autonomous kayak for ocean monitoring.
+    <img style="float: left;" src="/images/auto_kayak.jpg" width="200"> Worked on a team developing software to create an autonomous kayak for ocean monitoring.
