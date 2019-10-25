@@ -1,10 +1,10 @@
-- layout: left
+- layout: top
   name: Remote Sensing Center Undergraduate Research 
   # link: github.com/sproogen
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    <img style="float: right;" src="/images/rcs_logo.jpg" width="200"> Designed a direct digital synthesizer module for radar applications.
+    <img style="float: left;" src="/images/rcs_logo.jpg" width="200"> Designed a direct digital synthesizer module for radar applications.
 
 - layout: left
   name: Autonomous Kayak Undergraduate Research 
