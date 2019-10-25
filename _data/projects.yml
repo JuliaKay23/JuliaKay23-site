@@ -1,5 +1,6 @@
 - layout: left
-  name: Remote Sensing Center Undergraduate Research ![UA Remote Sensing Center](/images/rcs_logo.jpg)(https://rsc.ua.edu/)
+  name: Remote Sensing Center Undergraduate Research 
+  ![UA Remote Sensing Center](/images/rcs_logo.jpg)(https://rsc.ua.edu/)
   # link: github.com/sproogen
   # github: sproogen/resume-theme
   # quote: >
@@ -7,7 +8,8 @@
     Designed a direct digital synthesizer module for radar applications.
 
 - layout: left
-  name: Autonomous Kayak Undergraduate Research ![The autonomous kayak](/images/auto_kayak.jpg)  
+  name: Autonomous Kayak Undergraduate Research 
+  ![The autonomous kayak](/images/auto_kayak.jpg)  
   # link: github.com/sproogen
   # github: sproogen/resume-theme
   # quote: >
