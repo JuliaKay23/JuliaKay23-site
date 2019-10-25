@@ -4,7 +4,7 @@
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    ![UA Remote Sensing Center](/images/rcs_logo.jpg | width = 75)(https://rsc.ua.edu/) Designed a direct digital synthesizer module for radar applications.
+    ![UA Remote Sensing Center](/images/rcs_logo.jpg){:height="50%" width="50%"}(https://rsc.ua.edu/) Designed a direct digital synthesizer module for radar applications.
 
 - layout: left
   name: Autonomous Kayak Undergraduate Research 
@@ -12,4 +12,4 @@
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    ![The autonomous kayak](/images/auto_kayak.jpg | width = 75) Worked on a team developing software to create an autonomous kayak for ocean monitoring.
+    ![The autonomous kayak](/images/auto_kayak.jpg){:height="50%" width="50%"} Worked on a team developing software to create an autonomous kayak for ocean monitoring.
