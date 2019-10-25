@@ -6,11 +6,10 @@
   description: | # this will include new lines to allow paragraphs
     Designed a direct digital synthesizer module for radar applications.
 
-- layout: top
+- layout: left
   name: Autonomous Kayak Undergraduate Research
   # link: github.com/sproogen
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    Worked on a team developing software to create an autonomous kayak for ocean monitoring.
-    ![The autonomous kayak](/images/auto_kayak.jpg)
+    ![The autonomous kayak](/images/auto_kayak.jpg) Worked on a team developing software to create an autonomous kayak for ocean monitoring.
