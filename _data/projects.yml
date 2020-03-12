@@ -1,10 +1,10 @@
 - layout: left
   name: Remote Sensing Center Undergraduate Research 
-  link: https://ieeexplore.ieee.org/document/9020574
+  #link: https://ieeexplore.ieee.org/document/9020574
   # github: sproogen/resume-theme
   # quote: >
   description: | # this will include new lines to allow paragraphs
-    <img style="float: left; padding-right: 50px" src="/images/rcs_logo.jpg" width="250"> Designed a direct digital synthesizer module for radar applications.
+    <img style="float: left; padding-right: 50px" src="/images/rcs_logo.jpg" width="250"> Designed a direct digital synthesizer module for radar applications. The publication, An Initial Implementation of a Direct Digital Synthesizer Module for Radar Applications, can be found <a href="https://ieeexplore.ieee.org/document/9020574">here</a>.
 
 - layout: left
   name: Autonomous Kayak Undergraduate Research 
