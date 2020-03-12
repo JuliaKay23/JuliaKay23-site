@@ -32,6 +32,9 @@ about_content: | # this will include new lines to allow paragraphs
 # Projects Section
 # projects_title: Projects
 
+publications: | # this will include new lines to allow paragraphs
+  J. Lanier, R. A. Taylor and J. Yan, "An Initial Implementation of a Direct Digital Synthesizer Module for Radar Applications," 2019 SoutheastCon, Huntsville, AL, USA, 2019, pp. 1-2.
+
 # Experience Section
 # experience_title: Experience
 
