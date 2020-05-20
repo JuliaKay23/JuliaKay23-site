@@ -1,9 +1,0 @@
-- layout: left
-  company: Revere Control Systems
-  link: https://www.reverecontrol.com/
-  job_title: Co-op Engineering Student
-  dates: Fall 2016, Spring 2017, Summer 2018
-  quote: >
-   Cooperative Education is a special academic program at The University of Alabama in which students alternate periods of full-time study with periods of full-time employment.
-  description: | # this will include new lines to allow paragraphs
-    Designed, built, and tested instrumentation and control systems including communications, SCADA, and motor protection and control for municipal, OEM, and industrial applications.
