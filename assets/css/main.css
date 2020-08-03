@@ -10,7 +10,7 @@
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
+code, del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
@@ -28,6 +28,10 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+
+img {
+	align-items: center;
+}
 
 body {
 	line-height: 1;
@@ -315,7 +319,7 @@ input, select, textarea {
 					padding-top: 2.5em;
 				}
 
-		@media screen and (max-width: 1680px) {
+		/*@media screen and (max-width: 1680px) {
 
 			.row {
 				display: flex;
@@ -558,9 +562,9 @@ input, select, textarea {
 							padding-top: 2.5em;
 						}
 
-		}
+		}*/
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1680px) {
 
 			.row {
 				display: flex;
@@ -805,7 +809,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 870px) {
 
 			.row {
 				display: flex;
@@ -1050,7 +1054,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			.row {
 				display: flex;
@@ -1293,7 +1297,7 @@ input, select, textarea {
 							padding-top: 2.5em;
 						}
 
-		}
+		}*/
 
 /* Basic */
 
@@ -1332,18 +1336,22 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-		@media screen and (max-width: 1680px) {
+		/*@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
 				font-size: 15pt;
 			}
 
-		}
+		}*/
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+			}
+
+			#contact h1{
+				margin-bottom: 15px;
 			}
 
 		}
@@ -1374,21 +1382,32 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h2 {
+	#home h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		color: #737373;		
+		font-weight: 100;
+	}
+
+	.container h2{
+		text-align: center;
+    	font-size: 16pt;
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+		font-weight: 400;
+		color: #363636;
 	}
+
 
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.75em;
+			font-size: 28pt;
 		}
+
 
 		h2 {
 			font-size: 1.375em;
@@ -1433,7 +1452,7 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
 
@@ -1520,7 +1539,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		/*margin-bottom: 3em;*/
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1528,7 +1547,7 @@ input, select, textarea {
 		}
 
 	header {
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header > p {
@@ -1536,7 +1555,7 @@ input, select, textarea {
 			color: #aaa;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 870px) {
 
 			header {
 				margin: 0 0 1em 0;
@@ -1863,12 +1882,23 @@ input, select, textarea {
 					border-bottom-width: 0.5em;
 				}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 870px) {
 
 			#nav a span {
 				display: none;
 			}
 
+			#nav a {
+				margin: 0 0.17em 0 0.17em;
+				width: 0.8em;
+			}
+
+		}
+
+		@media screen and (max-width: 736) {
+			#nav a{
+				margin: 0 0.07em 0 0.7em;
+			}
 		}
 
 /* Wrapper */
@@ -1905,7 +1935,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1680px) {
 
 			#wrapper {
 				padding: 3em 0;
@@ -1914,23 +1944,23 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 870px) {
 
 			#wrapper {
 				padding: 1.5em 0;
-				max-width: calc(100% - 8em);
+				max-width: calc(100% - 4em);
 			}
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			#wrapper {
 				padding: 1em 0;
 				max-width: calc(100% - 2em);
 			}
 
-		}
+		}*/
 
 		@media screen and (max-width: 360px) {
 
@@ -1962,7 +1992,7 @@ input, select, textarea {
 			transition: opacity 0.25s ease-in-out;
 			margin-bottom: 0;
 			position: relative;
-			padding: 3.5em 2.5em 2.5em 2.5em;
+			padding: 2.5em 2.5em 2.5em 2.5em;
 			width: 100%;
 		}
 
@@ -1970,10 +2000,14 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			@media screen and (max-width: 736px) {
+			@media screen and (max-width: 870px) {
 
 				#main > .panel {
 					padding: 2em 1.5em 1.5em 1.5em;
+				}
+
+				#alabama-sizing {
+					height: 600px;
 				}
 
 			}
@@ -2095,13 +2129,17 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-					#main > .panel.intro header p {
+					#main > .panel.intro header h2 {
 						letter-spacing: -0.015em;
-						font-size: 1.25em;
+						font-size: 1.2em;
 						margin: 0.25em 0 0 0;
 					}
 
-				@media screen and (max-width: 980px) {
+					#main > .panel header{
+						text-align: center;
+					}
+
+				@media screen and (max-width: 870px) {
 
 					#main > .panel.intro {
 						-moz-flex-direction: column;
@@ -2112,18 +2150,23 @@ input, select, textarea {
 					}
 
 						#main > .panel.intro .pic {
-							height: 25em;
+							height: 20em;
 							width: 100%;
 						}
 
 						#main > .panel.intro header {
-							padding: 4em;
+							padding: 2.75em 2em 2.5em 2em;
 							text-align: center;
+						}
+
+						#main > .panel.intro header p {
+							font-size: 1em;
+							margin: 0.25em 0 0 0;
 						}
 
 				}
 
-				@media screen and (max-width: 736px) {
+				/*@media screen and (max-width: 736px) {
 
 					#main > .panel.intro .pic {
 						height: 20em;
@@ -2138,7 +2181,7 @@ input, select, textarea {
 							margin: 0.25em 0 0 0;
 						}
 
-				}
+				}*/
 
 /* Footer */
 
@@ -2200,6 +2243,7 @@ input, select, textarea {
 
 div.polaroid {
   width: 100%;
+  height: 850px;
   padding: 20px 20px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2212,6 +2256,182 @@ div.polaroid {
 div.container {
   text-align: left;
   vertical-align: middle;
-  padding: 20px 20px;
 } 
 
+div.container p{
+	padding: 10px 10px; 
+}
+
+.centered-text{
+	text-align: center;
+}
+
+.skip a{
+	background: white;
+	left: 0;
+	padding: 6px;
+	position: absolute;
+	top: -60px;
+	z-index: 1;
+}
+  
+.skip a:focus{
+/*Add the selector and rule to move the skip link to the exact top.*/
+	top: 0px;
+}
+  
+*:focus{
+	border: 2px solid black;
+}
+
+/*Taylor's Edits - some sprinkled in but here are some as well*/
+
+@media screen and (max-width: 1600px) {
+	#isc-sizing {
+		height: 400px;
+	}
+
+	#spectre-sizing {
+		height: 400px;
+	}
+
+	#rsc-sizing {
+		height: 400px;
+	}
+
+	#kayak-sizing {
+		height: 400px;
+	}
+
+	#experience-sizing {
+		margin: 1em 0 0;
+	}
+
+	#mich-img {
+		text-align: center;
+	}
+
+	.polaroid {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	#michigan-sizing {
+		height: 475px;
+	}
+
+	#alabama-sizing {
+		height: 600px;
+	}
+
+	#isc-sizing {
+		height: 300px;
+	}
+
+	#spectre-sizing {
+		height: 300px;
+	}
+
+	#rsc-sizing {
+		height: 300px;
+	}
+
+	#kayak-sizing {
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	#michigan-sizing {
+		height: 450px;
+	}
+
+	#alabama-sizing {
+		height: 630px;
+	}
+
+	.row > .col-4 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.row > .col-8 {
+		width: 100%;
+		text-align: center;
+	}
+
+	#revere-sizing {
+		padding: 0 0 1.25em 1.25em;
+	}
+
+	#revere-sizing-2 {
+		padding: 0 0 1.25em 1.25em;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#nav {
+		width: 17em;
+		height: 5.5em;
+	}
+	
+	#nav a.active:after {
+		border-bottom-width: 0;
+	}
+
+	#michigan-sizing {
+		height: 525px;
+	}
+
+	#alabama-sizing {
+		height: 810px;
+	}
+
+	#isc-sizing {
+		height: 350px;
+	}
+
+	#spectre-sizing {
+		height: 350px;
+	}
+
+	#rsc-sizing {
+		height: 350px;
+	}
+
+	#kayak-sizing {
+		height: 350px;
+	}
+
+	#rsc-logo {
+		width: 200px;
+	}
+
+	#isc-logo {
+		width: 200px;
+	}
+
+}
+
+
+@media screen and (prefers-reduced-motion: reduce){
+    html{
+        scroll-behavior: initial;
+    }
+  
+    .skip a{
+      background: white;
+      left: 0;
+      padding: 6px;
+      position: absolute;
+      top: -40px;
+      -webkit-transition: none;
+      transition: none;
+      z-index: 1;
+    }
+  
+    .skip a:focus{
+      top:0;
+    }
+  }

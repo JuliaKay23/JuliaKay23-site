@@ -1,32 +1,36 @@
-<DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 Astral by HTML5 UP
 	html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	-->
-	<html>
+	<html lang='en' dir='ltr'>
 	<head>
 	<title>Julia Lanier</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<link rel="Stylesheet" href="assets/css/html5reset.css"/>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+	<main>
+	<!-- Skip to content (for accessibility) -->
+	<div class="skip"><a href="#main">Skip to Main Content</a></div>
 	<!-- Wrapper-->
 	<div id="wrapper">
 
 	<!-- Nav -->
 	<nav id="nav">
-	<a href="#" class="icon solid fa-home"><span>Home</span></a>
-	<a href="#work" class="icon solid fa-user-circle"><span>About Me</span></a>
-	<a href="#research" class="icon solid fa-folder"><span>Projects</span></a>
-	<a href="#contact" class="icon solid fa-envelope"><span>Contact Me</span></a>
-	<a href="https://julialanierblog.wordpress.com/" class="icon brands fa-wordpress-simple" target="_blank"><span>Blog</span></a>
-	<a href="https://www.linkedin.com/in/julialanier" class="icon brands fa-linkedin-in" target="_blank"><span>LinkedIn</span></a>
-	<a href="https://github.com/JuliaKay23" class="icon brands fa-github" target="_blank"><span>Github</span></a>
-	<a href="https://scholar.google.com/citations?user=zq1Pk8UAAAAJ&hl=en" class="icon brands fa-google" target="_blank"><span>Scholar</span></a>
-	<a href="https://twitter.com/JuliaKayLanier" class="icon brands fa-twitter" target="_blank"><span>Twitter</span></a>
+	<a href="#" class="icon solid fa-home" aria-label="Home Icon"><span>Home</span></a>
+	<a href="#work" class="icon solid fa-user-circle" aria-label="About Me Icon"><span>About Me</span></a>
+	<a href="#research" class="icon solid fa-folder" aria-label="Projects Icon"><span>Projects</span></a>
+	<a href="#contact" class="icon solid fa-envelope" aria-label="Contact Me Icon"><span>Contact Me</span></a>
+	<a href="https://julialanierblog.wordpress.com/" class="icon brands fa-wordpress-simple" aria-label="Blog Icon" target="_blank"><span>Blog</span></a>
+	<a href="https://www.linkedin.com/in/julialanier" class="icon brands fa-linkedin-in" aria-label="LinkedIn Icon" target="_blank"><span>LinkedIn</span></a>
+	<a href="https://github.com/JuliaKay23" class="icon brands fa-github" aria-label="Github Icon" target="_blank"><span>Github</span></a>
+	<a href="https://scholar.google.com/citations?user=zq1Pk8UAAAAJ&hl=en" class="icon brands fa-google" aria-label="Google Scholar Icon" target="_blank"><span>Scholar</span></a>
+	<a href="https://twitter.com/JuliaKayLanier" class="icon brands fa-twitter" aria-label="Twitter Icon" target="_blank"><span>Twitter</span></a>
 	</nav>
 
 	<!-- Main -->
@@ -36,12 +40,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<article id="home" class="panel intro">
 	<header>
 	<h1>Julia Lanier</h1>
-	<p>Graduate Research Assistant<br/>University of Michigan</p>
+	<h2>Graduate Research Assistant<br/>University of Michigan</h2>
 	<a href="Resume.pdf" target="_blank">Current Resume</a>
 	</header>
-	<a href="#work" class="jumplink pic">
+	<a href="#work" class="jumplink pic"> 
 	<span class="arrow icon solid fa-chevron-right"><span>About Me</span></span>
-	<img src="images/me.jpg" alt="" />
+	<img src="images/me.jpg" alt="Photo of Julia" />
 	</a>
 	</article>
 
@@ -49,7 +53,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<article id="work" class="panel">
 		<header>
 			<br/>
-			<center><b><h1>About Me</h1></b></center>
+			<h1>About Me</h1>
 			<br/>
 		</header>
 		<p>
@@ -59,38 +63,38 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	
 		<header>
 			<br/>
-			<center><b><h1>Education</h1></b></center>
+			<h1>Education</h1>
 			<br/>
 		</header>
 		<section>
 			<div class="row">
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-						<a href="https://www.engin.umich.edu/" target="_blank"><img src="images/UMich.png" style="height:150px"></a></center>
-						<div class="container" style="height:250px">
-						<br><center>
-						<h3>University of Michigan</h3>
-						<p><b>PhD Computer Science and Engineering</b>
-						<br/><i>2019-present</i></p></center>
+				<div id="michigan-sizing" class="polaroid">
+						<a id="mich-img" href="https://www.engin.umich.edu/" target="_blank"><img src="images/UMich.png" style="height:150px" alt="University of Michigan Logo"></a>
+						<div class="container">
+						<br>
+						<h2>University of Michigan</h2>
+						<p class="centered-text"><b>PhD Computer Science and Engineering</b>
+						<br/><i>2019-present</i></p>
 						</div>
 						
-						<div class="container" style="height:500px">
+						<div class="container">
 						<p>Graduate research assistant in the Security and Privacy Research lab. More information about the lab can be found at <a href="https://spqr.eecs.umich.edu/" target="_blank">spqr.eecs.umich.edu</a>.</p>
 						</div>
 				</div>
 				</div>
 	
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-					<a href="https://eng.ua.edu/" target="_blank"><img src="images/UA.png" style="height:150px"></a></center>
-						<div class="container" style="height:250px">
-						<br><center>
-						<h3>University of Alabama</h3>
-						<p><b>BS Electrical Engineering, Computer Engineering Concentration, Computer Science Minor, Mathematics Minor</b>
+				<div id="alabama-sizing" class="polaroid">
+					<a href="https://eng.ua.edu/" target="_blank"><img src="images/UA.png" style="height:150px" alt="University of Alabama Logo"></a>
+						<div class="container">
+						<br>
+						<h2>University of Alabama</h2>
+						<p class="centered-text"><b>BS Electrical Engineering, Computer Engineering Concentration, Computer Science Minor, Mathematics Minor</b>
 						<br/><i>2014-2019</i></p>
 						</div>
 
-						<div class="container" style="height:500px">							<p>During my time at the University of Alabama I was very involved on campus. I held many leadership positions such as President of Eta Kappa Nu, Finance Vice President of Alpha Delta Pi, Secretary of Alpha Kappa Psi, and various other positions. I also received the Eta Kappa Nu Outstanding Senior Award in 2018 and the Fred R. Maxwell Jr. Award in 2017.</p>
+						<div class="container">							<p>During my time at the University of Alabama I was very involved on campus. I held many leadership positions such as President of Eta Kappa Nu, Finance Vice President of Alpha Delta Pi, Secretary of Alpha Kappa Psi, and various other positions. I also received the Eta Kappa Nu Outstanding Senior Award in 2018 and the Fred R. Maxwell Jr. Award in 2017.</p>
 						</div>
 				</div>
 				</div>
@@ -101,7 +105,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 		<header>
 			<br/>
-			<center><b><h1>A Little More About Me</h1></b></center>
+			<h1>A Little More About Me</h1>
 		</header>
 			<br/>
 		<section>
@@ -113,6 +117,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				<li>Coffee</li>
 				<li>Pokémon Go and Other Video Games</li>
 			</ul>
+			</section>
 
 	</article>
 	
@@ -122,16 +127,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<article id="research" class="panel">
 		<header>
 			<br/>
-			<center><b><h1>Projects</h1></b></center>
+			<h1>Projects</h1>
 			<br/>
 		</header>
 		<section>
 			<div class="row">
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-					<img src="images/isclab.png" style="height:90px"></center>
-						<div class="container" style="height:75px">
-							<center><h3>Ultrasonic Microphone Array</h3></center>
+				<div id="isc-sizing" class="polaroid">
+					<img id="isc-logo" src="images/isclab.png" style="height:90px" alt="ISC Lab Logo">
+						<div class="container" style="height:50px">
+							<h2>Ultrasonic Microphone Array</h2>
 						</div>
 						<div class="container" style="height:250px">
 					<p>Designing and implementing an ultrasonic microphone array for in-home moinitoring while maintaing privacy in collaboration with the ISC-Lab.</p>
@@ -139,10 +144,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				</div>
 				</div>
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-					<img src="images/spectre.png" style="height:90px"></center>
-						<div class="container" style="height:75px">
-							<center><h3>Skeptre</h3></center>
+				<div id="spectre-sizing" class="polaroid">
+					<img src="images/spectre.png" style="height:90px" alt="Spectre logo">
+						<div class="container" style="height:50px">
+							<h2>Skeptre</h2>
 						</div>
 						<div class="container" style="height:250px">
 					<p>Profiled the success of the hardware attack, Spectre, when various amounts and types of "processor noise" was added to the victim CPU.</p>
@@ -150,22 +155,22 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				</div>
 				</div>
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-					<img src="images/rcs_logo.jpg" style="height:90px"></center>
-						<div class="container" style="height:75px">
-						<a href="https://rsc.ua.edu/" target="_blank"><h3><center>Remote Sensing Center</center></h3></a>
+				<div id="rsc-sizing" class="polaroid">
+					<img id="rsc-logo" src="images/rcs_logo.jpg" style="height:90px" alt="Remote Sensing Center logo">
+						<div class="container" style="height:50px">
+						<a href="https://rsc.ua.edu/" target="_blank"><h2>Remote Sensing Center</h2></a>
 						</div>
 						<div class="container" style="height:250px">
-							<p>Designed a direct digital synthesizer module for radar applications. The publication, An Initial Implementation of a Direct Digital Synthesizer Module for Radar Applications, can be found <a href="An Initial Implementation of a Direct Digital.pdf" target="_blank"> here</a>.</p>
+							<p>Designed a direct digital synthesizer module for radar applications. <a href="An_Initial_Implementation_of_a_Direct_Digital.pdf" target="_blank">The publication can be found here.</a></p>
 						</div>
 				</div>
 				</div>
 	
 				<div class="col-6 col-12-medium col-12-small">
-				<div class="polaroid"><center>
-					<img src="images/auto_kayak.jpg" style="height:90px"></center>
-						<div class="container" style="height:75px">
-						<h3><center>Autonomous Kayak</center></h3>
+				<div id="kayak-sizing" class="polaroid">
+					<img src="images/auto_kayak.jpg" style="height:90px" alt="Autonomous Kayak">
+						<div class="container" style="height:50px">
+						<h2>Autonomous Kayak</h2>
 						</div>
 						<div class="container" style="height:250px">
 					<p>Worked on a team developing software to create an autonomous kayak for ocean monitoring.</p>
@@ -177,22 +182,22 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		</section>
 		<header>
 			<br/>
-			<center><b><h1>Work Experience</h1></b></center>
+			<h1>Work Experience</h1>
 			<br/>
 		</header>
 		<section>
 			<div class="row">
-				<div class="col-4 col-12-small">
-					<a href="https://www.reverecontrol.com/" target="_blank"><h3>Revere Control Systems</h3></a>
+				<div id="revere-sizing" class="col-4 col-12-small">
+					<a href="https://www.reverecontrol.com/" target="_blank"><h2>Revere Control Systems</h2></a>
 					<p>Co-op Engineering Student<br/><i>Fall 2016, Spring 2017, Summer 2018</i></p>
 				</div>
-				<div class="col-8 col-12-small">
+				<div id="revere-sizing-2" class="col-8 col-12-small">
 					<p>Designed, built, and tested instrumentation and control systems including communications, SCADA, and motor protection and control for municipal, OEM, and industrial applications.</p>
 				</div>
 			</div>
 		</section>
-	<header>
-			<center><b><h1>Publications</h1></b></center>
+	<header id="experience-sizing">
+			<h1>Publications</h1>
 			<br/>
 		</header>
 			<p>[<a href="https://ieeexplore.ieee.org/document/9020574" target="_blank">1</a>] J. Lanier, R. A. Taylor and J. Yan, "An Initial Implementation of a Direct Digital Synthesizer Module for Radar Applications," 2019 SoutheastCon, Huntsville, AL, USA, 2019, pp. 1-2, doi: 10.1109/SoutheastCon42311.2019.9020574.</p>
@@ -202,23 +207,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<!-- Contact -->
 	<article id="contact" class="panel">
 	<header>
-	<h2>Contact Me:</h2>
-	<h4>jlanier@umich.edu</h4>
+	<h1>Contact Me:</h1>
+	<h2>jlanier@umich.edu</h2>
 	</header>
 	<form action="https://formspree.io/mbjzdpek" method="post">
 	<div>
 	<div class="row">
 	<div class="col-6 col-12-medium">
-	<input type="text" name="name" placeholder="Name" />
+	<label>First Name<input type="text" name="name" placeholder="Name" aria-label="First Name" /></label>
 	</div>
 	<div class="col-6 col-12-medium">
-	<input type="text" name="email" placeholder="Your Email" />
+	<label>Your Email<input type="email" name="email" placeholder="Your Email" aria-label="Email"/></label>
 	</div>
 	<div class="col-12">
-	<input type="text" name="subject" placeholder="Subject" />
+	<label>Subject<input type="text" name="subject" placeholder="Subject" aria-label="Subject"/></label>
 	</div>
 	<div class="col-12">
-	<textarea name="message" placeholder="Message" rows="6"></textarea>
+	<label>Message<textarea name="message" placeholder="Message" rows="6" aria-label="Message"></textarea></label>
 	</div>
 	<div class="col-12">
 	<input type="submit" value="Send Message" />
@@ -248,5 +253,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
+	</main>
 	</body>
 	</html>
