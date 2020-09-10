@@ -33,6 +33,18 @@ img {
 	align-items: center;
 }
 
+#mich-img {
+	text-align: center;
+}
+
+#bama-img {
+	text-align: center;
+}
+
+.proj-img-sizing{
+	text-align: center;
+}
+
 body {
 	line-height: 1;
 }
