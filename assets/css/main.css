@@ -1356,7 +1356,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 740px) {
 
 			body, input, textarea, select {
 				font-size: 12pt;
@@ -1402,7 +1402,7 @@ input, select, textarea {
 	}
 
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 740px) {
 
 		h1 {
 			font-size: 28pt;
@@ -1687,7 +1687,7 @@ input, select, textarea {
 			padding: 0.5em 1.25em 0.5em 1.25em;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 740px) {
 
 			input[type="button"],
 			input[type="submit"],
@@ -1736,7 +1736,7 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 740px) {
 
 			ul.actions li {
 				display: block;
@@ -1895,7 +1895,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736) {
+		@media screen and (max-width: 740px) {
 			#nav a{
 				margin: 0 0.07em 0 0.7em;
 			}
@@ -2224,7 +2224,7 @@ input, select, textarea {
 					border-left: 0;
 				}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 740px) {
 
 			#footer .copyright li {
 				padding-left: 0.5em;
@@ -2288,19 +2288,19 @@ div.container p{
 
 @media screen and (max-width: 1600px) {
 	#isc-sizing {
-		height: 400px;
+		height: 350px;
 	}
 
 	#spectre-sizing {
-		height: 400px;
+		height: 350px;
 	}
 
 	#rsc-sizing {
-		height: 400px;
+		height: 300px;
 	}
 
 	#kayak-sizing {
-		height: 400px;
+		height: 300px;
 	}
 
 	#experience-sizing {
@@ -2326,29 +2326,45 @@ div.container p{
 	}
 
 	#isc-sizing {
-		height: 300px;
+		height: 260px;
 	}
 
 	#spectre-sizing {
-		height: 300px;
+		height: 260px;
 	}
 
 	#rsc-sizing {
-		height: 300px;
+		height: 260px;
 	}
 
 	#kayak-sizing {
-		height: 300px;
+		height: 260px;
 	}
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 740px) {
 	#michigan-sizing {
 		height: 450px;
 	}
 
 	#alabama-sizing {
 		height: 630px;
+	}
+
+	#isc-sizing {
+		height: 300px;
+	}
+
+	#spectre-sizing {
+		height: 275px;
+	}
+
+	#rsc-sizing {
+		height: 275px;
+	}
+
+	#kayak-sizing {
+		height: 260px;
 	}
 
 	.row > .col-4 {
