@@ -576,7 +576,7 @@ input, select, textarea {
 
 		}*/
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 2080px) {
 
 			.row {
 				display: flex;
@@ -1356,7 +1356,7 @@ input, select, textarea {
 
 		}*/
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 2080px) {
 
 			body, input, textarea, select {
 				font-size: 14pt;
@@ -1947,7 +1947,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 2080px) {
 
 			#wrapper {
 				padding: 3em 0;
@@ -2298,7 +2298,7 @@ div.container p{
 
 /*Taylor's Edits - some sprinkled in but here are some as well*/
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 2600px) {
 	#isc-sizing {
 		height: 350px;
 	}
@@ -2440,6 +2440,10 @@ div.container p{
 		width: 200px;
 	}
 
+}
+
+.centering-images{
+	text-align: center;
 }
 
 
